@@ -1,1 +1,0 @@
-# Figma-Product-Landing-Page
