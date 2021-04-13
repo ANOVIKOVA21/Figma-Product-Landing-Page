@@ -617,12 +617,16 @@ body {
 
 .header__container {
     max-width: 1283px;
-    margin: 0 auto;
+    margin: 0 auto 154px auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding-top: 36px;
+    padding-top: 20px;
+}
+
+.header__logo {
+    margin-left: 30px;
 }
 
 .header__nav-menu {
@@ -632,7 +636,11 @@ body {
 
 .header__item {
     padding: 10px;
-    margin-right: 51px;
+    margin-right: 31px;
+}
+
+.header__item:last-child {
+    margin-right: 0
 }
 
 .header__item a {
@@ -677,7 +685,6 @@ body {
 /* Solution styles start */
 
 .solution {
-    padding-top: 164px;
     padding-bottom: 45px;
 }
 
@@ -791,6 +798,7 @@ body {
     border: 1px solid #DEDEDE;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 .possibility__card2 {
@@ -798,6 +806,7 @@ body {
     border: 1px solid #DEDEDE;
     box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
+    padding-bottom: 50px;
 }
 
 .possibility__img {
@@ -807,19 +816,19 @@ body {
 #management {
     padding: 20px 4px;
     max-width: 70px;
-    margin: 40px auto 20px 50px;
+    margin: 40px auto 10px 50px;
 }
 
 #support {
     padding: 20px 3px;
     max-width: 66px;
-    margin: 40px auto 20px 50px;
+    margin: 40px auto 10px 50px;
 }
 
 #collaborative {
     padding: 20px 1px;
     max-width: 65px;
-    margin: 40px auto 20px 50px;
+    margin: 40px auto 10px 50px;
 }
 
 .possibility__card-title {
@@ -828,7 +837,7 @@ body {
     font-weight: 700;
     line-height: 33px;
     letter-spacing: 0.1px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 50px;
 }
 
@@ -1247,6 +1256,7 @@ body {
     background: none;
     color: #30D7BA;
     border: 1px solid #30D7BA;
+    padding: 16px 82px;
 }
 
 
@@ -1288,7 +1298,7 @@ body {
 
 .subscribe__email {
     width: 284px;
-    height: 52px;
+    padding: 14px 28px;
     background: #EFEFEF;
     border: 1px solid #D0D0D0;
     border-radius: 6px;
@@ -1317,3 +1327,99 @@ body {
 
 
 /* Subscribe styles end */
+
+
+/* Footer styles start */
+
+.footer {
+    background: #112D57;
+    padding: 62px 0;
+    color: #FFFFFF;
+}
+
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1134px;
+    max-height: 247px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__list {
+    margin: 16px 75px 56px 0;
+}
+
+.footer__item {
+    padding: 10px 0 10px 0;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.footer__idea {
+    padding: 0 10px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+}
+
+.footer__map {
+    width: 334px;
+    height: 247px;
+    border: 0;
+    border-radius: 22px;
+    margin-right: 87px;
+}
+
+.footer__address {
+    background: url(../images/map-ico.svg) no-repeat left;
+    padding: 10px 10px 10px 56px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    margin: 26px 0 10px 0;
+}
+
+.footer__tel {
+    background: url(../images/phone-ico.svg) no-repeat left;
+    padding: 10px 10px 10px 45px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.footer__tel a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__tel a:hover,
+.footer__tel a:focus {
+    opacity: .45;
+}
+
+.footer__social-networks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 20px 0 20px 0;
+}
+
+.footer__social-item {
+    margin-right: 24.5px;
+}
+
+
+/* Footer styles end */
